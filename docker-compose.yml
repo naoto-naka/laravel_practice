@@ -40,4 +40,4 @@ services:
     ports:
       - "3000:80"
     volumes:
-      - ./docker/phpmyadmin/sessions/sessions
+      - ./docker/phpmyadmin/sessions:/sessions
